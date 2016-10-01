@@ -6,6 +6,11 @@ $font-head: 'Ubuntu', sans-serif;
 $font-main: Arial, sans-serif;
 $font-menu: 'Ubuntu Condensed', sans-serif;
 
+section,
+footer{
+	min-width: 1240px;
+}
+
 .container{
 	width: 1240px;
 	margin: 0 auto;
@@ -57,6 +62,10 @@ $font-menu: 'Ubuntu Condensed', sans-serif;
 	&__link:hover{
 		background-position-y: -26px;
 	}
+}
+
+.nav{
+	padding: 0px 40px;
 }
 
 .nav .container{
